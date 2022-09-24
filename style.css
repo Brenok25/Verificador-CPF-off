@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@700&display=swap');
+
+*{
+    margin: 0; padding: 0;
+}
+
+#start{
+    background-color: rgba(224, 224, 224, 0.678);
+    padding: 7%;
+}
+
+#start h1{
+    font-size: 70px;
+    font-family: 'Rokkitt', serif;
+}
+
+#formulario{
+    margin: 3% 0 0 7%;
+}
+
+#formulario label{
+    color: rgba(0, 0, 0);
+    font-size: 20px;
+}
+
+#formulario input{
+    height: 40px;
+    width: 70%;
+    background-color: rgba(207, 207, 235, 0.568);
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+#formulario small{
+    font-size: x-small;
+    color: rgb(39, 64, 252);
+}
+
+#formulario button{
+    background-color: rgb(39, 39, 207);
+    color: rgb(230, 230, 230);
+    border-radius: 10px;
+    height: 35px;
+    width: 20%;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 1.5%;
+    cursor: pointer;
+}
+
+#formulario button:hover{
+    background-color: rgb(22, 22, 161);
+    color: rgb(248, 248, 248);
+}
+
+#result{
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+#sim{
+    background-color: rgb(0, 209, 0);
+    color: rgb(240, 232, 232);
+    height: 20px;
+    width: 68%;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    display: none;
+}
+
+#nao{
+    background-color: rgb(250, 15, 15);
+    color: rgb(240, 232, 232);
+    height: 20px;
+    width: 68%;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    display: none;
+
+}
+
